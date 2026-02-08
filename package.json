@@ -1,0 +1,15 @@
+﻿{
+  "name": "spa-router",
+  "version": "1.0.0",
+  "description": "SPA Router backend with Express + SQLite + JSON storage",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7"
+  }
+}
